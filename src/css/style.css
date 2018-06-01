@@ -1,0 +1,28 @@
+
+@font-face {
+    font-family: 'Cantarell Regular';
+    src: local('Cantarell Regular'),
+         url('../fonts/cantarell-regular.woff2') format('woff2'),
+         url('../fonts/cantarell-regular.woff') format('woff'),
+         url('../fonts/cantarell-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trend Sans One';
+    src: local('Trend Sans One'),
+         url('../fonts/trend-sans-one.woff2') format('woff2'),
+         url('../fonts/trend-sans-one.woff') format('woff'),
+         url('../fonts/trend-sans-one.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hello {
+    color: rgb(0, 255, 34);
+    background: url('../bg.jpg');
+    font-family: 'Cantarell Regular';
+    
+    
+}
